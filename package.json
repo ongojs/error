@@ -1,0 +1,35 @@
+{
+  "name": "@ongojs/error",
+  "version": "0.0.0",
+  "description": "error",
+  "main": "index.js",
+  "bin": {
+    "error": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/error.git"
+  },
+  "keywords": [
+    "error"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/error/issues"
+  },
+  "homepage": "https://github.com/ongojs/error#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.0",
+    "vitest": "^0.28.4"
+  }
+}
